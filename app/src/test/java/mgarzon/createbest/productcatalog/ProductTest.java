@@ -20,7 +20,7 @@ public class ProductTest {
     public void checkProductPrice() {
         // I am making this test work!
         Product aProduct = new Product("1", "DELL MONITOR", 180);
-        assertEquals((double)180.0, aProduct.getPrice(),*);
+        assertEquals((double)180.0, aProduct.getPrice(),1);
     }
 
 
